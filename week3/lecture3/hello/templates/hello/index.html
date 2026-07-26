@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo HTML Page</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0077cc;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav {
+            background: #222;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #0077cc;
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background: #0077cc;
+            color: white;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        form input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            background: #0077cc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .card-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            flex: 1;
+            min-width: 250px;
+            background: #fafafa;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Demo HTML Website</h1>
+    <p>This page contains various HTML elements.</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+<section>
+    <h2>About Us</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Aspernatur eligendi dolorum doloremque inventore molestias,
+        reprehenderit unde quae omnis illum accusantium.
+    </p>
+
+    <br>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ducimus officiis beatae, aspernatur necessitatibus aperiam
+        laboriosam, saepe, quia eligendi dolore voluptas rem.
+    </p>
+</section>
+
+<section>
+
+<h2>Features</h2>
+
+<ul>
+    <li>HTML5 Structure</li>
+    <li>CSS Styling</li>
+    <li>Navigation Menu</li>
+    <li>Responsive Cards</li>
+    <li>Tables</li>
+    <li>Forms</li>
+    <li>Images</li>
+    <li>Footer</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>Cards</h2>
+
+<div class="card-container">
+
+<div class="card">
+<h3>HTML</h3>
+<p>
+HTML is used to create the structure of web pages.
+It defines headings, paragraphs, images, tables,
+forms, and much more.
+</p>
+</div>
+
+<div class="card">
+<h3>CSS</h3>
+<p>
+CSS makes web pages beautiful.
+It controls layout, colors, spacing,
+animations, responsiveness, and typography.
+</p>
+</div>
+
+<div class="card">
+<h3>JavaScript</h3>
+<p>
+JavaScript adds interactivity.
+It handles events, API calls,
+DOM manipulation, and dynamic content.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Sample Table</h2>
+
+<table>
+
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Department</th>
+<th>Salary</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>John</td>
+<td>Developer</td>
+<td>$5000</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Emma</td>
+<td>Designer</td>
+<td>$4500</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>David</td>
+<td>Tester</td>
+<td>$4000</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Sophia</td>
+<td>HR</td>
+<td>$3500</td>
+</tr>
+
+</table>
+
+</section>
+
+<section>
+
+<h2>Image</h2>
+
+<img src="https://picsum.photos/1000/400" alt="Random Image">
+
+</section>
+
+<section>
+
+<h2>Registration Form</h2>
+
+<form>
+
+<label>Name</label>
+<input type="text" placeholder="Enter your name">
+
+<label>Email</label>
+<input type="email" placeholder="Enter email">
+
+<label>Password</label>
+<input type="password">
+
+<label>Country</label>
+
+<select>
+<option>India</option>
+<option>USA</option>
+<option>Canada</option>
+<option>Australia</option>
+</select>
+
+<label>Message</label>
+
+<textarea rows="5"></textarea>
+
+<button>Submit</button>
+
+</form>
+
+</section>
+
+<section>
+
+<h2>Long Content</h2>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae molestiae officiis inventore asperiores dignissimos. Voluptatibus reprehenderit consequatur tenetur quisquam quidem.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus provident incidunt voluptatem nobis quas rem deserunt, ipsam corporis dolorem aliquid.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam velit magni necessitatibus pariatur officiis repellat consequatur minima.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem maxime doloremque quasi laudantium suscipit architecto explicabo ipsum deleniti.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero rerum, numquam sint inventore pariatur dolorum molestias atque quas exercitationem.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque recusandae quae exercitationem, eveniet excepturi reprehenderit.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vitae repellendus sed suscipit nemo deleniti omnis, temporibus molestiae.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, necessitatibus! Aliquid possimus sapiente eveniet consequatur laborum pariatur.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatum pariatur sunt, quae nobis quidem molestiae.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, reiciendis, possimus ipsam numquam suscipit eveniet.</p>
+
+</section>
+
+</div>
+
+<footer>
+
+<p>© 2026 Demo HTML Website</p>
+
+</footer>
+
+</body>
+</html>
